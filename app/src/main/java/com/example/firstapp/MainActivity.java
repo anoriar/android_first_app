@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.second_layout);
+        setContentView(R.layout.activity_main);
 
         View plusButtonView = findViewById(R.id.plus_button);
         View minusButtonView = findViewById(R.id.minus_button);
